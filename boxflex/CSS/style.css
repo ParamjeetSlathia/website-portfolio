@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: #121212;
+
+
+    font-family: "poppins", serif;
+    font-weight: 500;  /* box ka ander ka paragraph ka font*/
+    font-style: normal;
+
+
+    display: flex; /* box kii movement ka liye use krte */
+    justify-content: space-evenly;
+    align-items: center;
+
+    color: #fff; 
+}
+
+
+.box1 {
+    height: 300px;
+    color: #120303;
+    width: 250px;
+    background: linear-gradient(rgb(150, 150, 206), rgb(218, 218, 116));
+    border-radius: 13px;
+}
+
+.content {
+    padding: 20px 30px;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    background: linear-gradient(to right bottom, blue, rgb(234, 14, 14));
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+
+    border-radius: 30px 0px 30px 0px; 
+}
+
+.btn:hover {
+    transition: all 1s ease-in-out;
+    border-radius: 0px 30px 0px 30px;
+
+}
+
+
+
